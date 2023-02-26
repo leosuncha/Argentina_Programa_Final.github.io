@@ -1,0 +1,39 @@
+/** body {
+    column-count:2;
+    column-gap: 3em;
+    column-rule: 1px solid #bbb;
+    column-width: 140px;
+}
+
+h1 {
+    column-span:all;
+}
+
+img {
+    display:block;
+    column-span:all;
+}
+*/
+body {
+    column-count:2;
+    column-gap: 3em;
+    column-rule: 1px solid #bbb;
+    column-width: 140px;
+}
+
+header {
+    column-span:all;
+}
+
+img {
+    display:block;
+    column-span:all;
+}
+
+h1 {
+    color:brown;
+}
+
+h2 {
+    color:cadetblue;
+}
