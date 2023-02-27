@@ -13,27 +13,88 @@ img {
     display:block;
     column-span:all;
 }
+.linea {
+        border-top: 1px solid black;
+        height: 2px;
+        max-width: 200px;
+        padding: 0;
+        margin: 20px auto 0 auto;
+      }
+
+      background: rgb(230, 233, 215);
+    padding: 10px;
+    
 */
 body {
     column-count:2;
-    column-gap: 3em;
-    column-rule: 1px solid #bbb;
+    column-gap: 1em;
+    column-rule: 2px solid #bbb;
     column-width: 140px;
 }
 
 header {
     column-span:all;
+    background-color: rgb(230, 233, 215);
+    text-align: center;
 }
 
-img {
-    display:block;
-    column-span:all;
-}
+.div-img {
+    display: flex;
+    justify-content: center;
+  }
 
 h1 {
-    color:brown;
+    color:rgb(117, 213, 186);
 }
 
 h2 {
-    color:cadetblue;
+    text-align: center;
+    background-color: rgb(117, 213, 186);
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
 }
+
+footer {
+    column-span:all;
+    background-color: rgb(230, 233, 215);
+    text-align: center;
+}
+
+#division {
+    padding: 10px;
+    background: rgb(230, 233, 215);
+}
+    
+#link_UPV{
+    text-align: center;
+}
+
+#Contacto {
+    background-color: rgb(230, 233, 215);
+}
+#Acerca_de_mi {
+    background: rgb(230, 233, 215);
+    margin: 0px;
+    text-align: justify;
+}
+
+/* Start: Video Responsive */
+.video-responsive {
+	height: 0;
+	overflow: hidden;
+	padding-bottom: 56.25%;
+	padding-top: 30px;
+	position: relative;
+	}
+.video-responsive iframe, .video-responsive object, .video-responsive embed {
+	height: 100%;
+	left: 0;
+	position: absolute;
+	top: 0;
+	width: 100%;
+	}
+/* End: Video Responsive */
+
+

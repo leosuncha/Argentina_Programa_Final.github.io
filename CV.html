@@ -4,21 +4,23 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CV JOEL GARDEN</title> 
+    <title>CV JOEL GARDEN</title> <!--Usando datos de https://randomuser.me/-->
     <link rel="stylesheet" href="css/estilos.css">
     <link rel="icon" type="image/x-icon" href="https://randomuser.me/api/portraits/men/66.jpg">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
 </head>
 <body>
-    <section>
-    <img src="https://randomuser.me/api/portraits/men/66.jpg" alt="Foto de perfil Curricul Vitae Joel Garden" />
-    <header>
+   <header>
+        <div class="div-img">
+        <img src="https://randomuser.me/api/portraits/men/66.jpg" alt="Foto de perfil Curricul Vitae Joel Garden" />
+        </div>
         <h1><strong>Joel Garden</strong></h1>
-        <p><em>Ingeniero en Costas y Vías Navegables</em></p>
+        <p><strong>Ingeniero en Costas y Vías Navegables</strong></p>
     </header>
-    </section>
+   
     
-    <section>
-    <h1>CONTACTO</h1>
+    <div id="Contacto">
+    <h2>CONTACTO</h2> <!--Íconos obtenidos de https://www.orientacionparaelempleo.com/iconos-para-curriculum/-->
         <div> <img src="https://opem.b-cdn.net/wp-content/uploads/2016/02/telefono-móvil-cv-150x150.jpg" alt="Foto de ícono de teléfono"
             height="25px" width="25px"/> <b>(594) 852-7571</b> 
         </div>
@@ -27,42 +29,70 @@
         </div>
         <div>
             <img src="icono-calendario1-150x150.png" alt="Foto de ícono de ubicación"
-            height="25px" width="25px"/> <b>12/5/1974</b>
+            height="25px" width="25px"/> <b>12/5/1992</b>
         </div>
         <div>
             <img src="E:\INFORMÁTICA\TICMAS - DESARROLLO WEB\PROYECTO FINAL\mail-128.png" alt="Foto de ícono de ubicación"
-            height="25px" width="25px"/> <b>joel.gardner@example.com</b>   
+            height="25px" width="25px"/><b>joel@example.com</b> 
         </div>
-    </section>
+        <div><A HREF="mailto:joel.g@example.com">Enviame un mail!</A>
+        </div>
+        <form action="" method="post">
+            <label>o deje su número telefónico</label>
+        <input type="number" name="num_tel" /> <span><b>"(Incluya código de páis y área)"</b></span> 
+        <input type="submit" value="enviar" />
+        </form>
+    </div>
 
-    <section>    
-    <h1>ACERCA DE MÍ</h1>
-        <p>Soy un profesional capacitado en los campos de la Hidráulica e Hidrología 
+    <div id="division"></div>
+
+    <div id="Acerca_de_mi">    
+    <h2>ACERCA DE MÍ</h2>
+        <p id="Acerca_de_mi">Soy un profesional capacitado en los campos de la Hidráulica e Hidrología 
         que busca ejercer la ingeniería con responsabilidad social y ambiental, para 
         brindar a los clientes soluciones efectivas y sostenibles. Me considero una 
         persona versátil, entusiasta, empática y colaborativa</p>
-    </section>
-    
-    <section>
-    <h1>APTITUDES</h1>
+    </div>
+    <div id="division"></div>
+    <div>
+    <h2>APTITUDES</h2>
         <li>Modelación hidrológica, hidráulica y diseño</li>
         <li>Gestión Integrada de los Recursos Hídricos</li>
         <li>Capacidad de organización personal y grupal</li>
         <li>Predisposición al aprendizaje autodidacta</li>
-    </section>
-<hr></hr>
+    </div>
+
+    <div id="division"></div>
     
-    <section>
-    <h1>EDUCACIÓN</h1>
-        <div>Nivel Universitario de Grado: Ingeniería en en Costas y Vías Navegables.</div>
-        <div>Facultad de Ingeniería y Ciencias del Agua. Universidad Politécnica 
-        de Valencia.</div> 
-        <span><nav>https://www.upv.es/es</nav></span> 
-     
-    </section>
+    <div>
+    <h2>EDUCACIÓN</h2>
+        <div><p><b>Nivel Universitario de Grado:</b>Ingeniería en en Costas y Vías Navegables.
+        Facultad de Ingeniería y Ciencias del Agua. Universidad Politécnica 
+        de Valencia (UPV).</p></div> 
+        <div class="video-responsive"><iframe width="560" height="315" src="https://www.youtube.com/embed/2BoJYouN2pc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen> </iframe>
+        </div>
+              
+        <div id="link_UPV"><A href="https://www.upv.es/es">Link a UPV</A></div>
+        <div><p><b>Cargos Estudiantiles:</b> Ayudante Alumno en cátedras Cálculo I y II.
+            UPV, desde 08/2015 hasta 04/2017.</p>
+        </div> 
+        </div>
+        <div><p><b>Becas:</b> Beca al mérito otorgada por el organismo COIRCO. 
+        Programa “Padrinos UPV”, 06/2011 - 12/2017.
+        </p>
+        </div> 
+
+        <div><p><b>Premios y distinciones:</b> Mejor promedio de la carrera del año 2018. 
+            UPV, 11/2018.</p>
+            </div> 
+       
+        </div>
+    </div>
     
-    <section>
-    <h1>EXPERIENCIA</h1>
+    <div id="division"></div>
+
+    <div>
+    <h2>EXPERIENCIA</h2>
         <p>Departamento Provincial de Aguas, Valencia. Desde 11/2018 hasta la actualidad.
         Ingeniero en Direcciones de Evaluación y Planificación de los Recursos Hídricos:
         </p>
@@ -74,7 +104,7 @@
             <li>Actualización y mantenimiento de la red hidrometeorológica provincial.</li>
         </ul>
 
-        <h2><em>PROYECTOS DESTACADOS</em></h2>
+        <h3><em>PROYECTOS DESTACADOS</em></h3>
         <div><p><b>Estudio aluvional de la obra “Ampliación del sistema de Riego de Campo Grande”:</b>
         La ampliación de la red de canales de riego del sistema “Campo Grande” llevó a
         realizar un estudio hidrológico para analizar las interferencias de la nueva 
@@ -108,23 +138,30 @@
             meteorológicos. Se mantuvieron intercambios técnicos entre las provincias 
             interesadas y la AIC. 
         </p></div>
-    </section>
+    </div>
 
-    <section>
-    <h1>TECNOLOGÍAS</h1>
-    SIGs – CADs – HEC-HMS – HEC-RAS – WEAP – SWMM – CROPWAT – RIVERFLOW2D.
-    </section>
+    <div id="division"></div>
 
-    <section>
-    <h1>IDIOMAS</h1>
+    <div>
+    <h2>TECNOLOGÍAS</h2>
+    SIGs - CADs - HEC-HMS - HEC-RAS - WEAP - SWMM - CROPWAT - RIVERFLOW2D
+    </div>
+
+    <div>
+    <h2>IDIOMAS</h2>
     <ul>
         <li>Inglés: Nivel Avanzado</li>
         <li>Francés: Nivel Intermedio</li>
         <li>Alemán: Nivel Básico</li>
     </ul>
-    </section>
+    </div>
 
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>    
 
+<div id="division"></div>
 
+<footer>
+    <p><b>Este CV forma es el Proyecto Final del curso Argentina Programa 4.0 - Frontend Academy 2022</b></p>
+</footer>
 </body>
 </html>
