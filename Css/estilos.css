@@ -25,17 +25,17 @@ img {
     padding: 10px;
     
 */
-body {
-    column-count:2;
-    column-gap: 1em;
-    column-rule: 2px solid #bbb;
-    column-width: 140px;
-}
-
 header {
     column-span:all;
     background-color: rgb(230, 233, 215);
     text-align: center;
+}
+
+body {
+    column-count:2;
+    column-gap: 1em;
+    column-rule: 2px solid black;
+    column-width: 140px;
 }
 
 .div-img {
@@ -54,6 +54,8 @@ h2 {
     border-top: 1px solid black;
     border-left: 1px solid black;
     border-right: 1px solid black;
+    margin:0cm;
+    padding: 0cm;
 }
 
 footer {
@@ -101,6 +103,24 @@ footer {
 }
 
 #Acerca_de_mi {
+    background: rgb(230, 233, 215);
+    margin: 0px;
+    text-align: justify;
+}
+
+#experiencia {
+    background: rgb(230, 233, 215);
+    margin: 0px;
+    text-align: justify;
+}
+
+#tecnologias {
+    background: rgb(230, 233, 215);
+    margin: 0px;
+    text-align: center;
+}
+
+#idiomas {
     background: rgb(230, 233, 215);
     margin: 0px;
     text-align: justify;
