@@ -80,6 +80,24 @@ footer {
     text-align: justify;
 }
 
+#Aptitudes {
+    background: rgb(230, 233, 215);
+    margin: 0px;
+    text-align: center;
+}
+
+#Educacion {
+    background: rgb(230, 233, 215);
+    margin: 0px;
+    text-align: justify;
+}
+
+#Acerca_de_mi {
+    background: rgb(230, 233, 215);
+    margin: 0px;
+    text-align: justify;
+}
+
 /* Start: Video Responsive */
 .video-responsive {
 	height: 0;
