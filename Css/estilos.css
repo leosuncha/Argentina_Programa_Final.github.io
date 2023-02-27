@@ -62,6 +62,14 @@ footer {
     text-align: center;
 }
 
+#demo {
+    display:none;
+}
+
+#mensaje_emergente{
+    text-align: center;
+}
+
 #division {
     padding: 10px;
     background: rgb(230, 233, 215);
