@@ -23,7 +23,14 @@ img {
 
       background: rgb(230, 233, 215);
     padding: 10px;
-    
+ 
+body {
+    column-count:2;
+    column-gap: 1em;
+    column-rule: 2px solid black;
+    column-width: 140px;
+}    
+
 */
 header {
     column-span:all;
@@ -32,10 +39,11 @@ header {
 }
 
 body {
-    column-count:2;
-    column-gap: 1em;
-    column-rule: 2px solid black;
-    column-width: 140px;
+    background-color: rgb(230, 233, 215);
+}
+
+.col-sm-6 {
+    background-color: rgb(230, 233, 215);
 }
 
 .div-img {
@@ -140,6 +148,18 @@ footer {
     background: rgb(230, 233, 215);
     margin: 0px;
     text-align: justify;
+}
+
+#extra {
+    background: rgb(230, 233, 215);
+    margin: 0px;
+    text-align: justify;
+}
+
+#sumar {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 /* Start: Video Responsive */

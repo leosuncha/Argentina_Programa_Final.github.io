@@ -22,3 +22,38 @@ function showPosition(position) {
   x.innerHTML = "Latitude: " + position.coords.latitude + 
   "<br>Longitude: " + position.coords.longitude;
 }
+
+const d = new Date();
+document.getElementById("fecha").innerHTML = d;
+
+
+document.getElementById('exp').addEventListener('click', function(){
+    let numeroA = document.getElementById('numero').value;
+    console.log("El numero A es:" +numeroA);
+    let resultado=exp(parseFloat(numeroA));
+    console.log("El resultado del exponencial del número es:" +resultado)
+    document.getElementById('resultado').innerHTML=resultado;
+    document.getElementById('contenedorResultado').style.display='block';
+});
+
+function exp(a){
+    return Math.exp(a);
+}
+
+document.getElementById('sumar').addEventListener('click', function(){
+    let numeroA = document.getElementById('numero1').value;
+    console.log("El numero A es:" +numeroA);
+
+    let numeroB = document.getElementById('numero2').value
+    console.log("El numeroB es:" +numeroB);
+
+    let resultado2=sumar(parseFloat(numeroA), parseFloat(numeroB));
+    console.log("El resultado de la suma es:" +resultado2)
+
+    document.getElementById('resultado2').innerHTML=resultado2;
+    document.getElementById('contenedorResultado2').style.display='block';
+});
+
+function sumar(a,b){
+    return a+b;
+}
